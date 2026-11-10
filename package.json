@@ -1,0 +1,18 @@
+{
+  "name": "credit-360-banque-populaire",
+  "version": "1.0.0",
+  "description": "CRÉDIT 360° – Banque Populaire: Complete Frontend UI Prototype",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "start": "npx serve -l 8080"
+  },
+  "keywords": [
+    "banque-populaire",
+    "credit-360",
+    "banking-ui",
+    "typescript"
+  ],
+  "author": "Banque Populaire UI Team",
+  "license": "ISC"
+}
