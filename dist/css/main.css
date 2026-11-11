@@ -1,0 +1,136 @@
+/* ==========================================================================
+   CRÉDIT 360° – BANQUE POPULAIRE
+   Main Design Tokens & Global Styles
+   ========================================================================== */
+
+:root {
+  /* Banque Populaire Color Palette */
+  --bp-orange: #e05a10;
+  --bp-orange-hover: #c94c08;
+  --bp-orange-light: #fef0e7;
+  --bp-orange-glow: rgba(224, 90, 16, 0.25);
+
+  --bp-navy: #111a26;
+  --bp-navy-dark: #0b111a;
+  --bp-navy-light: #1b2636;
+  --bp-navy-surface: #223044;
+  --bp-navy-border: #2a3a50;
+
+  --bp-blue: #005691;
+  --bp-blue-light: #e6f1f8;
+  --bp-blue-dark: #003e69;
+
+  --bp-green: #10b981;
+  --bp-green-light: #ecfdf5;
+  --bp-green-dark: #059669;
+
+  --bp-amber: #f59e0b;
+  --bp-amber-light: #fef3c7;
+
+  --bp-red: #ef4444;
+  --bp-red-light: #fef2f2;
+  --bp-red-dark: #b91c1c;
+
+  /* Neutrals & Surfaces */
+  --bg-app: #f1f4f8;
+  --bg-card: #ffffff;
+  --bg-subtle: #f8fafc;
+  --bg-muted: #e9eef5;
+
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-white: #ffffff;
+
+  --border-color: #e2e8f0;
+  --border-light: #edf2f7;
+  --border-dark: #cbd5e1;
+
+  /* Typography */
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --font-script: 'Brush Script MT', 'Dancing Script', 'Caveat', cursive;
+
+  /* Layout Dimensions */
+  --sidebar-width: 250px;
+  --header-height: 84px;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Elevation Shadows */
+  --shadow-xs: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+  --shadow-sm: 0 1px 3px 0 rgba(15, 23, 42, 0.08), 0 1px 2px -1px rgba(15, 23, 42, 0.05);
+  --shadow-md: 0 4px 8px -2px rgba(15, 23, 42, 0.07), 0 2px 4px -2px rgba(15, 23, 42, 0.05);
+  --shadow-lg: 0 10px 15px -3px rgba(15, 23, 42, 0.08), 0 4px 6px -4px rgba(15, 23, 42, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(15, 23, 42, 0.1), 0 8px 10px -6px rgba(15, 23, 42, 0.06);
+  --shadow-orange: 0 4px 14px 0 rgba(224, 90, 16, 0.35);
+
+  /* Transitions */
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.25s ease;
+}
+
+/* Reset & Box Sizing */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--font-sans);
+  background-color: var(--bg-app);
+  color: var(--text-primary);
+  font-size: 14px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+  background: none;
+  outline: none;
+}
+
+input, select, textarea {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+img, svg {
+  display: block;
+}
+
+/* Utilities */
+.text-orange { color: var(--bp-orange); }
+.text-green { color: var(--bp-green); }
+.text-red { color: var(--bp-red); }
+.text-blue { color: var(--bp-blue); }
+.text-muted { color: var(--text-muted); }
+.font-bold { font-weight: 700; }
+.font-semibold { font-weight: 600; }
+.font-medium { font-weight: 500; }
+
+.flex { display: flex; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.gap-2 { gap: 8px; }
+.gap-3 { gap: 12px; }
+.gap-4 { gap: 16px; }

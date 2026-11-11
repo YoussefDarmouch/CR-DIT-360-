@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "CRÉDIT 360° – Banque Populaire: Complete Frontend UI Prototype",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && node scripts/copy-static.mjs",
     "watch": "tsc --watch",
     "start": "npx serve -l 8080"
   },

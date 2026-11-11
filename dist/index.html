@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CRÉDIT 360° – Banque Populaire | Portail Digital d'Octroi de Crédit</title>
+
+  <!-- Modern Inter Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/layout.css">
+  <link rel="stylesheet" href="./css/components.css">
+  <link rel="stylesheet" href="./css/pages.css">
+</head>
+<body>
+
+  <div class="app-wrapper">
+
+    <!-- ==================================================================== -->
+    <!-- SIDEBAR NAVIGATION -->
+    <!-- ==================================================================== -->
+    <aside class="app-sidebar">
+
+      <!-- Top Brand in Sidebar -->
+      <div class="sidebar-header">
+        <div class="sidebar-logo-icon">
+          <svg viewBox="0 0 100 100" fill="currentColor" width="26" height="26">
+            <path d="M78 22 C74 15 65 14 60 17 C57 19 55 24 53 28 C51 24 46 22 42 24 C38 26 36 30 38 35 C32 34 26 38 25 44 C24 50 28 55 33 57 C29 62 30 70 36 74 C38 75 42 75 44 73 C42 80 47 87 54 88 C62 89 68 83 67 76 C74 77 80 72 82 65 C84 57 80 50 75 47 C81 44 83 37 81 31 C80 27 79 24 78 22 Z M58 32 C56 32 54 30 54 28 C54 26 56 24 58 24 C60 24 62 26 62 28 C62 30 60 32 58 32 Z"/>
+          </svg>
+        </div>
+        <div class="sidebar-brand-text">
+          <span class="sidebar-brand-title">BANQUE POPULAIRE</span>
+          <span class="sidebar-brand-subtitle">CRÉDIT 360°</span>
+        </div>
+      </div>
+
+      <!-- Navigation Links (Populated by TypeScript) -->
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Links dynamically generated in app.ts from navigationRoutes -->
+      </nav>
+
+      <!-- User Profile in Sidebar Footer -->
+      <div class="sidebar-footer">
+        <div class="sidebar-user">
+          <div class="sidebar-avatar">
+            AH
+            <span class="online-dot"></span>
+          </div>
+          <div class="user-info">
+            <span class="user-name" title="Asmaa El Habachi">Asmaa El Habachi</span>
+            <span class="user-role">Conseillère Commerciale</span>
+          </div>
+        </div>
+        <div class="user-motto">
+          « Des Solutions tout au long de la vie »
+        </div>
+      </div>
+
+    </aside>
+
+    <!-- ==================================================================== -->
+    <!-- MAIN APPLICATION SHELL -->
+    <!-- ==================================================================== -->
+    <div class="main-shell">
+
+      <!-- Top Enterprise Header -->
+      <header class="app-header">
+
+        <!-- Left: Banque Populaire Brand -->
+        <div class="header-left">
+          <div class="bp-horse-logo">
+            <div class="bp-horse-icon">
+              <svg viewBox="0 0 100 100" fill="currentColor" width="26" height="26">
+                <path d="M78 22 C74 15 65 14 60 17 C57 19 55 24 53 28 C51 24 46 22 42 24 C38 26 36 30 38 35 C32 34 26 38 25 44 C24 50 28 55 33 57 C29 62 30 70 36 74 C38 75 42 75 44 73 C42 80 47 87 54 88 C62 89 68 83 67 76 C74 77 80 72 82 65 C84 57 80 50 75 47 C81 44 83 37 81 31 C80 27 79 24 78 22 Z M58 32 C56 32 54 30 54 28 C54 26 56 24 58 24 C60 24 62 26 62 28 C62 30 60 32 58 32 Z"/>
+              </svg>
+            </div>
+            <div class="bp-brand-names">
+              <span class="bp-brand-main">BANQUE POPULAIRE</span>
+              <span class="bp-brand-tagline">GRANDIR. ENSEMBLE.</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Center: CRÉDIT 360° Header Title -->
+        <div class="header-center">
+          <div class="header-title-row">
+            <h1 class="header-title">CRÉDIT <span class="deg-circle">360°</span></h1>
+          </div>
+          <span class="header-subtitle">Un parcours digital, du projet à la réussite</span>
+        </div>
+
+        <!-- Right: Script Slogan & Quick Info -->
+        <div class="header-right">
+          <div class="header-slogan">
+            <span>Plus simple,</span>
+            <span>Plus rapide,</span>
+            <span>Plus proche de nos clients</span>
+          </div>
+
+          <div class="header-quick-stats">
+            <div class="header-branch-pill">
+              <span class="dot"></span>
+              <span>Casablanca Anfa • 21/09/2026</span>
+            </div>
+
+            <button class="header-action-btn" id="btn-header-search" title="Rechercher un dossier">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+              </svg>
+            </button>
+
+            <button class="header-action-btn" id="btn-header-notifs" title="Alertes et notifications">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16">
+                <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+              </svg>
+              <span class="badge-dot"></span>
+            </button>
+          </div>
+        </div>
+
+      </header>
+
+      <!-- View Container Mounted By Router -->
+      <main class="view-container" id="view-mount-point">
+        <!-- Page view will be dynamically injected here by TypeScript -->
+      </main>
+
+      <!-- Footer Banner Strip -->
+      <footer class="app-footer-banner">
+        <span>DES PROJETS AUJOURD'HUI, UN MEILLEUR DEMAIN</span>
+      </footer>
+
+    </div>
+
+  </div>
+
+  <!-- Main TypeScript Bundle -->
+  <script type="module" src="./app.js"></script>
+
+</body>
+</html>
